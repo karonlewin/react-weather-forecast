@@ -1,0 +1,77 @@
+body {
+  /* background-color: grey; */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.forecast {
+  display: block;
+  margin: 10px;
+}
+
+.forecast h3 {
+  /* color: white; */
+}
+
+.forecast .min {
+  color: #1761a5;
+}
+
+.forecast .max {
+  color: #d21d1d;
+}
+
+.forecast .splitter {
+  margin: 5px;
+}
+
+.forecast img {
+  width: 100px;
+  /* border: 1px solid #CCCCCC;
+  border-radius: 5px; */
+  padding: 2px;
+}
+
+.forecast .day {
+  display: inline-block;
+}
+
+.forecast .period {
+  display: inline-block;
+  margin: 10px;
+}
+
+.forecast .period span {
+  display: block;
+}
