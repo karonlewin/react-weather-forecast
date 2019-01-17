@@ -1,7 +1,7 @@
 ## React Weather Forecast
 This project was made to practice ReactJS.
 
-Forecast data acquired through [ClimaTempo](climatempo.com.br)'s API.
+Forecast data acquired through [ClimaTempo](https://www.climatempo.com.br)'s API.
 
 ![Weather Forecast Screenshot](https://raw.githubusercontent.com/karonlewin/react-weather-forecast/master/public/screenshot.png)
 
